@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "northeurope"
+            "value": "eastus"
         },
         "environment": {
             "value": "dev"
         },
         "prefix": {
-            "value": "dmz"
+            "value": "dmzanhass"
         },
         "tags": {
             "value": {}
@@ -38,25 +38,25 @@
             "value": ""
         },
         "privateDnsZoneIdBlob": {
-            "value": ""
+            "value": "/subscriptions/04ecf75d-eabc-4a3e-a48a-d7e83d7a9a20/resourceGroups/esa-anhass/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net"
         },
         "privateDnsZoneIdContainerRegistry": {
-            "value": ""
+            "value": "/subscriptions/04ecf75d-eabc-4a3e-a48a-d7e83d7a9a20/resourceGroups/esa-anhass/providers/Microsoft.Network/privateDnsZones/privatelink.azurecr.io"
         },
         "privateDnsZoneIdKeyVault": {
-            "value": ""
+            "value": "/subscriptions/04ecf75d-eabc-4a3e-a48a-d7e83d7a9a20/resourceGroups/esa-anhass/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net"
         },
         "privateDnsZoneIdNamespace": {
-            "value": ""
+            "value": "/subscriptions/04ecf75d-eabc-4a3e-a48a-d7e83d7a9a20/resourceGroups/esa-anhass/providers/Microsoft.Network/privateDnsZones/privatelink.servicebus.windows.net"
         },
         "privateDnsZoneIdPurview": {
-            "value": ""
+            "value": "/subscriptions/04ecf75d-eabc-4a3e-a48a-d7e83d7a9a20/resourceGroups/esa-anhass/providers/Microsoft.Network/privateDnsZones/privatelink.purview.azure.com"
         },
         "privateDnsZoneIdQueue": {
-            "value": ""
+            "value": "/subscriptions/04ecf75d-eabc-4a3e-a48a-d7e83d7a9a20/resourceGroups/esa-anhass/providers/Microsoft.Network/privateDnsZones/privatelink.queue.core.windows.net"
         },
         "privateDnsZoneIdSynapse": {
-            "value": ""
+            "value": "/subscriptions/04ecf75d-eabc-4a3e-a48a-d7e83d7a9a20/resourceGroups/esa-anhass/providers/Microsoft.Network/privateDnsZones/privatelink.azuresynapse.net"
         }
     }
 }
