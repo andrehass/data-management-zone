@@ -10,8 +10,12 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
+  
+env:
+  AZURE_SUBSCRIPTION_ID: "04ecf75d-eabc-4a3e-a48a-d7e83d7a9a20" # Update to '{dataHubSubscriptionId}'
+  AZURE_LOCATION: "eastus"                                 # Update to '{regionName}'
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+
 jobs:
   # This workflow contains a single job called "build"
   build:
